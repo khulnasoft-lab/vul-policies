@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/vul-policies
 go 1.20
 
 require (
-	github.com/docker/docker v24.0.6+incompatible
+	github.com/docker/docker v24.0.7+incompatible
 	github.com/khulnasoft-lab/defsec v1.0.4
 	github.com/liamg/iamgo v0.0.9
 	github.com/liamg/memoryfs v1.6.0
