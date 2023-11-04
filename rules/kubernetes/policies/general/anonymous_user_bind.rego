@@ -5,7 +5,7 @@
 # schemas:
 # - input: schema["kubernetes"]
 # related_resources:
-# - https://blog.aquasec.com/kubernetes-exposed-one-yaml-away-from-disaster
+# - https://blog.khulnasoft.com/kubernetes-exposed-one-yaml-away-from-disaster
 # custom:
 #   id: KSV122
 #   avd_id: AVD-KSV-0122

@@ -65,7 +65,7 @@ func createOrasContainer(ctx context.Context, regIP string, bundlePath string) t
 
 func createVulContainer(ctx context.Context, regIP string) testcontainers.Container {
 	reqVul := testcontainers.ContainerRequest{
-		Image: "aquasec/vul:latest",
+		Image: "khulnasoft/vul:latest",
 		Cmd:   []string{"--debug", "config", fmt.Sprintf("--policy-bundle-repository=%s:5111/defsec-test:latest", regIP), "."},
 		HostConfigModifier: func(config *container.HostConfig) {
 			config.NetworkMode = "host"

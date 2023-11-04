@@ -8,6 +8,6 @@ Binding to anonymous user to any clusterrole or role is a security risk.
 {{ remediationActions }}
 
 ### Links
-- https://blog.aquasec.com/kubernetes-exposed-one-yaml-away-from-disaster
+- https://blog.khulnasoft.com/kubernetes-exposed-one-yaml-away-from-disaster
 
 

@@ -8,6 +8,6 @@ You should add HEALTHCHECK instruction in your docker container images to perfor
 {{ remediationActions }}
 
 ### Links
-- https://blog.aquasec.com/docker-security-best-practices
+- https://blog.khulnasoft.com/docker-security-best-practices
 
 

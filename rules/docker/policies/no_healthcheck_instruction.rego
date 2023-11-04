@@ -5,7 +5,7 @@
 # schemas:
 # - input: schema["dockerfile"]
 # related_resources:
-# - https://blog.aquasec.com/docker-security-best-practices
+# - https://blog.khulnasoft.com/docker-security-best-practices
 # custom:
 #   id: DS026
 #   avd_id: AVD-DS-0026
