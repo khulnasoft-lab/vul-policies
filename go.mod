@@ -1,12 +1,11 @@
 module github.com/khulnasoft-lab/vul-policies
 
-go 1.21.1
-
-toolchain go1.21.3
+go 1.21.4
 
 require (
 	github.com/aquasecurity/defsec v0.93.2-0.20231024055158-015ab97ce898
 	github.com/docker/docker v24.0.7+incompatible
+	github.com/khulnasoft-lab/vul-iac v0.0.0-20231111190840-f0f14aa85242
 	github.com/liamg/iamgo v0.0.9
 	github.com/liamg/memoryfs v1.6.0
 	github.com/owenrumney/squealer v1.2.1
@@ -57,7 +56,6 @@ require (
 	github.com/hashicorp/hcl/v2 v2.18.1 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/khulnasoft-lab/vul-iac v0.0.0-20231111190840-f0f14aa85242 // indirect
 	github.com/klauspost/compress v1.16.3 // indirect
 	github.com/liamg/jfather v0.0.7 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
